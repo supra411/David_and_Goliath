@@ -8,6 +8,12 @@ hp = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 243FA6E3
-/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "spd"
-spd = 2;
+spd = 3;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3BCB353A
+/// @DnDArgument : "var" "goliathdefeated"
+global.goliathdefeated = 0;

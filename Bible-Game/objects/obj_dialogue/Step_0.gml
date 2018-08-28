@@ -170,14 +170,14 @@ else
 	/// @DnDParent : 4D385A06
 	/// @DnDArgument : "x1" "1000"
 	/// @DnDArgument : "y1" "325"
-	/// @DnDArgument : "x2" "1115"
+	/// @DnDArgument : "x2" "1200"
 	/// @DnDArgument : "y2" "441"
 	/// @DnDArgument : "obj" "obj_David"
 	/// @DnDArgument : "shape" "1"
 	/// @DnDArgument : "notme" "0"
 	/// @DnDArgument : "destroylist" "false"
 	/// @DnDSaveInfo : "obj" "9af0bfa7-a77b-4a46-add5-8d019c3c9829"
-	var l4A507A39_0 = collision_rectangle(1000, 325, 1115, 441, obj_David, true, 0);
+	var l4A507A39_0 = collision_rectangle(1000, 325, 1200, 441, obj_David, true, 0);
 	if((l4A507A39_0))
 	{
 		/// @DnDAction : YoYo Games.Common.If_Variable
@@ -818,6 +818,14 @@ else
 				davidmove = 0;
 				
 				}
+			
+				/// @DnDAction : YoYo Games.Common.Set_Global
+				/// @DnDVersion : 1
+				/// @DnDHash : 43A41B2D
+				/// @DnDParent : 6429B021
+				/// @DnDArgument : "value" "5"
+				/// @DnDArgument : "var" "stonenum"
+				global.stonenum = 5;
 			
 				/// @DnDAction : YoYo Games.Common.Set_Global
 				/// @DnDVersion : 1

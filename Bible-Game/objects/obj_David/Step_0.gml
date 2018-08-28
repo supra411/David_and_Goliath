@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Get_Global
+/// @DnDVersion : 1
+/// @DnDHash : 060006DC
+/// @DnDArgument : "output" "stonenum_to_shoot"
+/// @DnDArgument : "var" "stonenum"
+stonenum_to_shoot = global.stonenum;
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 7EDC9BFF
@@ -30,9 +37,9 @@ if (l6C633556_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 68273AA4
 		/// @DnDParent : 2D06A08C
-		/// @DnDArgument : "var" "stonenum"
+		/// @DnDArgument : "var" "stonenum_to_shoot"
 		/// @DnDArgument : "op" "2"
-		if(stonenum > 0)
+		if(stonenum_to_shoot > 0)
 		{
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
