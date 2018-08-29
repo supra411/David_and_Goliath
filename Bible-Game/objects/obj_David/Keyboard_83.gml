@@ -11,8 +11,8 @@ if(davidmove == 1)
 	/// @DnDParent : 497CE660
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "4"
+	/// @DnDArgument : "y" "movespeed"
 	/// @DnDArgument : "y_relative" "1"
 	x += 0;
-	y += 4;
+	y += movespeed;
 }

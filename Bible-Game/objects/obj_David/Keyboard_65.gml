@@ -9,10 +9,10 @@ if(davidmove == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3723281E
 	/// @DnDParent : 7638462A
-	/// @DnDArgument : "x" "-4"
+	/// @DnDArgument : "x" "-1*movespeed"
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y" "0"
 	/// @DnDArgument : "y_relative" "1"
-	x += -4;
+	x += -1*movespeed;
 	y += 0;
 }

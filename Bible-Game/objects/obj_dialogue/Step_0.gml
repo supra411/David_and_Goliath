@@ -819,13 +819,13 @@ else
 				
 				}
 			
-				/// @DnDAction : YoYo Games.Common.Set_Global
+				/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 43A41B2D
+				/// @DnDHash : 7E2A4DD4
 				/// @DnDParent : 6429B021
-				/// @DnDArgument : "value" "5"
-				/// @DnDArgument : "var" "stonenum"
-				global.stonenum = 5;
+				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "var" "stoneretrieval"
+				stoneretrieval = 2;
 			
 				/// @DnDAction : YoYo Games.Common.Set_Global
 				/// @DnDVersion : 1
@@ -839,6 +839,60 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 5E2558DE
 				/// @DnDParent : 6429B021
+				/// @DnDArgument : "objectid" "obj_dialoguebox"
+				/// @DnDArgument : "layer" ""layer_dialogue""
+				/// @DnDSaveInfo : "objectid" "15818e0f-9942-4b7e-ac1d-b3cdad5e835a"
+				instance_create_layer(0, 0, "layer_dialogue", obj_dialoguebox);
+			}
+		}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 07849E4C
+		/// @DnDParent : 0D6EDC0F
+		/// @DnDArgument : "var" "stoneretrieval"
+		/// @DnDArgument : "value" "2"
+		if(stoneretrieval == 2)
+		{
+			/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
+			/// @DnDVersion : 1
+			/// @DnDHash : 73842A09
+			/// @DnDParent : 07849E4C
+			var l73842A09_0;
+			l73842A09_0 = keyboard_check_released(vk_space);
+			if (l73842A09_0)
+			{
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 05251E8D
+				/// @DnDApplyTo : 9af0bfa7-a77b-4a46-add5-8d019c3c9829
+				/// @DnDParent : 73842A09
+				/// @DnDArgument : "var" "davidmove"
+				with(obj_David) {
+				davidmove = 0;
+				
+				}
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 7DE3794C
+				/// @DnDParent : 73842A09
+				/// @DnDArgument : "expr" "2"
+				/// @DnDArgument : "var" "stoneretrieval"
+				stoneretrieval = 2;
+			
+				/// @DnDAction : YoYo Games.Common.Set_Global
+				/// @DnDVersion : 1
+				/// @DnDHash : 3B579235
+				/// @DnDParent : 73842A09
+				/// @DnDArgument : "value" ""stone ipsum lorem four""
+				/// @DnDArgument : "var" "dialoguetext"
+				global.dialoguetext = "stone ipsum lorem four";
+			
+				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 09ABDFB5
+				/// @DnDParent : 73842A09
 				/// @DnDArgument : "objectid" "obj_dialoguebox"
 				/// @DnDArgument : "layer" ""layer_dialogue""
 				/// @DnDSaveInfo : "objectid" "15818e0f-9942-4b7e-ac1d-b3cdad5e835a"

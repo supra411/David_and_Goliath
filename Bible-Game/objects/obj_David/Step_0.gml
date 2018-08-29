@@ -60,14 +60,14 @@ if (l6C633556_0)
 			/// @DnDArgument : "var" "cooldown"
 			cooldown = 50;
 		
-			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDAction : YoYo Games.Common.Set_Global
 			/// @DnDVersion : 1
-			/// @DnDHash : 4F6E6ABE
+			/// @DnDHash : 575BCE54
 			/// @DnDParent : 68273AA4
-			/// @DnDArgument : "expr" "-1"
-			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "value" "-1"
+			/// @DnDArgument : "value_relative" "1"
 			/// @DnDArgument : "var" "stonenum"
-			stonenum += -1;
+			global.stonenum += -1;
 		}
 	}
 }
@@ -79,3 +79,27 @@ if (l6C633556_0)
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "cooldown"
 cooldown += -1;
+
+/// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
+/// @DnDVersion : 1.1
+/// @DnDHash : 19A90844
+/// @DnDArgument : "x1" "1865"
+/// @DnDArgument : "y1" "725"
+/// @DnDArgument : "x2" "1990"
+/// @DnDArgument : "y2" "1165"
+/// @DnDArgument : "obj" "obj_David"
+/// @DnDArgument : "shape" "1"
+/// @DnDArgument : "notme" "0"
+/// @DnDArgument : "destroylist" "false"
+/// @DnDSaveInfo : "obj" "9af0bfa7-a77b-4a46-add5-8d019c3c9829"
+var l19A90844_0 = collision_rectangle(1865, 725, 1990, 1165, obj_David, true, 0);
+if((l19A90844_0))
+{
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 452AA7F0
+	/// @DnDParent : 19A90844
+	/// @DnDArgument : "room" "battle"
+	/// @DnDSaveInfo : "room" "b8344912-f85f-40f4-b766-1f85eea12d34"
+	room_goto(battle);
+}

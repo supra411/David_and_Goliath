@@ -13,15 +13,45 @@ davidmove = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 200EF741
+/// @DnDArgument : "expr" "8"
+/// @DnDArgument : "var" "movespeed"
+movespeed = 8;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 0646917A
 /// @DnDArgument : "var" "stonenum_to_shoot"
 stonenum_to_shoot = 0;
 
-/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4DD68C68
-/// @DnDArgument : "var" "stonenum"
-global.stonenum = 0;
+/// @DnDHash : 7DD97BDB
+/// @DnDArgument : "var" "room"
+/// @DnDArgument : "value" "1"
+if(room == 1)
+{
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 327F71CF
+	/// @DnDParent : 7DD97BDB
+	/// @DnDArgument : "value" "5"
+	/// @DnDArgument : "var" "stonenum"
+	global.stonenum = 5;
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 5B809208
+else
+{
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 4DD68C68
+	/// @DnDParent : 5B809208
+	/// @DnDArgument : "var" "stonenum"
+	global.stonenum = 0;
+}
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
