@@ -31,6 +31,14 @@ if(l5E5D40E5_0)
 		/// @DnDArgument : "x" "obj_David.x"
 		/// @DnDArgument : "y" "obj_David.y"
 		direction = point_direction(x, y, obj_David.x, obj_David.y);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 20BD7880
+		/// @DnDParent : 04C687FB
+		/// @DnDArgument : "expr" "distance_to_object(obj_David)"
+		/// @DnDArgument : "var" "distance_to_david"
+		distance_to_david = distance_to_object(obj_David);
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else

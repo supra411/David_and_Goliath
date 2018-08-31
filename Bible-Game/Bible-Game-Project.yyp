@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "277c2fae-7f7b-4291-a304-094980564b83",
+            "Value": {
+                "id": "b7609804-4560-4a80-920b-266febfff533",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_goliath_dash\/spr_goliath_dash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2d7f3555-f432-4429-9e2c-c8738de6a0f9",
             "Value": {
                 "id": "98cdb560-077c-446a-a7a4-1c7aa6e404fe",
@@ -305,6 +324,25 @@
             }
         },
         {
+            "Key": "6505c99c-2de1-4a87-96ff-5539b633bd1d",
+            "Value": {
+                "id": "65068928-8a4e-4ced-ad3e-0a0bd9bd21f0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_david_right\/spr_david_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "654f6198-51a5-4be1-8d0c-2fdef3ed7bbb",
             "Value": {
                 "id": "47856607-9142-42f9-b352-c41e19d0dcda",
@@ -343,6 +381,25 @@
             }
         },
         {
+            "Key": "69d7a331-5a66-4472-b540-c18c7396bce3",
+            "Value": {
+                "id": "1345a92c-472b-4b6a-96d3-432d0d77f261",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_david_left\/spr_david_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b5e4652-5fd6-4a9c-8d1d-62e5975708ae",
             "Value": {
                 "id": "d5dc1eec-75db-429a-b8c0-97dc3331e315",
@@ -358,6 +415,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_Stream\/spr_Stream.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6fe254bf-b9e0-426e-99b0-cce78d5acd58",
+            "Value": {
+                "id": "e50f7de5-3e4c-49ff-82e7-3ca6e4098aca",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_goliath_hurricane\/spr_goliath_hurricane.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -757,6 +833,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_bgtile_battle\/spr_bgtile_battle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c4477e5d-4606-4ad4-94d4-ff9199a14960",
+            "Value": {
+                "id": "7ebae527-367f-47b6-b07c-1e8a6badf4ec",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_david_back\/spr_david_back.yy",
                 "resourceType": "GMSprite"
             }
         },
