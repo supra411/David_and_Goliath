@@ -1,83 +1,99 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3E30F126
+/// @DnDHash : 23BB06ED
 /// @DnDArgument : "expr" "camera_get_view_width(view_camera[0])"
-/// @DnDArgument : "var" "camera_x"
-camera_x = camera_get_view_width(view_camera[0]);
+/// @DnDArgument : "var" "camera_width"
+camera_width = camera_get_view_width(view_camera[0]);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 360EC099
+/// @DnDHash : 1DCBA691
 /// @DnDArgument : "expr" "camera_get_view_height(view_camera[0])"
-/// @DnDArgument : "var" "camera_y"
-camera_y = camera_get_view_height(view_camera[0]);
+/// @DnDArgument : "var" "camera_height"
+camera_height = camera_get_view_height(view_camera[0]);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 521DCDEC
-/// @DnDApplyTo : other
+/// @DnDHash : 16F493B0
 /// @DnDArgument : "var" "x"
-/// @DnDArgument : "op" "3"
-with(other) var l521DCDEC_0 = x <= 0;
-if(l521DCDEC_0)
+/// @DnDArgument : "op" "1"
+if(x < 0)
 {
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 50C28018
+	/// @DnDParent : 16F493B0
+	/// @DnDArgument : "var" "stone_fired"
+	global.stone_fired = 0;
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 36B9F4EF
-	/// @DnDApplyTo : other
-	/// @DnDParent : 521DCDEC
-	with(other) instance_destroy();
+	/// @DnDHash : 4D27B2B6
+	/// @DnDParent : 16F493B0
+	instance_destroy();
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0F07951F
-/// @DnDApplyTo : other
+/// @DnDHash : 22964092
+/// @DnDArgument : "var" "y"
+/// @DnDArgument : "op" "1"
+if(y < 0)
+{
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 1E1EE288
+	/// @DnDParent : 22964092
+	/// @DnDArgument : "var" "stone_fired"
+	global.stone_fired = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 656CBCF8
+	/// @DnDParent : 22964092
+	instance_destroy();
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 31C43F1E
 /// @DnDArgument : "var" "x"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "camera_y"
-with(other) var l0F07951F_0 = x >= camera_y;
-if(l0F07951F_0)
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "camera_width"
+if(x > camera_width)
 {
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 7CE95E94
+	/// @DnDParent : 31C43F1E
+	/// @DnDArgument : "var" "stone_fired"
+	global.stone_fired = 0;
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 15E15AB7
-	/// @DnDApplyTo : other
-	/// @DnDParent : 0F07951F
-	with(other) instance_destroy();
+	/// @DnDHash : 2CBDAFDA
+	/// @DnDParent : 31C43F1E
+	instance_destroy();
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2CC94EA5
-/// @DnDApplyTo : other
+/// @DnDHash : 68BF80D8
 /// @DnDArgument : "var" "y"
-/// @DnDArgument : "op" "3"
-with(other) var l2CC94EA5_0 = y <= 0;
-if(l2CC94EA5_0)
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "camera_height"
+if(y > camera_height)
 {
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 633537E7
-	/// @DnDApplyTo : other
-	/// @DnDParent : 2CC94EA5
-	with(other) instance_destroy();
-}
+	/// @DnDHash : 3978CD46
+	/// @DnDParent : 68BF80D8
+	/// @DnDArgument : "var" "stone_fired"
+	global.stone_fired = 0;
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 4CDDF3AC
-/// @DnDApplyTo : other
-/// @DnDArgument : "var" "y"
-/// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "camera_y"
-with(other) var l4CDDF3AC_0 = y >= camera_y;
-if(l4CDDF3AC_0)
-{
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 474CAF2D
-	/// @DnDApplyTo : other
-	/// @DnDParent : 4CDDF3AC
-	with(other) instance_destroy();
+	/// @DnDHash : 38259573
+	/// @DnDParent : 68BF80D8
+	instance_destroy();
 }

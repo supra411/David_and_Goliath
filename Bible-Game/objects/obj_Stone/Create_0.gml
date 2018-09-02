@@ -16,3 +16,24 @@ image_angle = direction;
 /// @DnDHash : 74D2D7A7
 /// @DnDArgument : "speed" "16"
 speed = 16;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 270C34CE
+/// @DnDApplyTo : other
+/// @DnDArgument : "value" "distance_to_object(obj_Goliath)"
+/// @DnDArgument : "var" "stone_fired"
+with(other) {
+global.stone_fired = distance_to_object(obj_Goliath);
+
+}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1310B438
+/// @DnDApplyTo : a9cfc02d-69dd-4a86-8956-ce8e8f77d4aa
+/// @DnDArgument : "var" "dodge_in_action"
+with(obj_Goliath) {
+dodge_in_action = 0;
+
+}

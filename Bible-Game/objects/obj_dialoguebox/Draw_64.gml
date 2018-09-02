@@ -84,8 +84,8 @@ if(!(displaytext == ""))
 	/// @DnDHash : 0CA8B658
 	/// @DnDParent : 0B57D88B
 	/// @DnDArgument : "x" "10"
-	/// @DnDArgument : "y" "ch-90"
+	/// @DnDArgument : "y" "ch-200"
 	/// @DnDArgument : "caption" """"
 	/// @DnDArgument : "var" "displaytext"
-	draw_text(10, ch-90, string("") + string(displaytext));
+	draw_text(10, ch-200, string("") + string(displaytext));
 }

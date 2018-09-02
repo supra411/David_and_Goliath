@@ -533,6 +533,25 @@
             }
         },
         {
+            "Key": "85c2b7cc-aabe-4214-bb81-53431e1e77be",
+            "Value": {
+                "id": "9c94b885-7b22-4d98-9491-693a5932647f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/txt_stonescore\/txt_stonescore.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8c9b2101-4d13-44d7-a123-165a7e0198b7",
             "Value": {
                 "id": "d30c24b8-47e6-4c70-bb19-92d763bab0b1",

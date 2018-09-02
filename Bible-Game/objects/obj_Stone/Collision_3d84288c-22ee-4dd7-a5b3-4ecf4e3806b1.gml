@@ -1,14 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4F3C6711
-/// @DnDApplyTo : other
-/// @DnDArgument : "expr" "-1"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "hp"
-with(other) {
-hp += -1;
-
-}
+/// @DnDHash : 28E6A06F
+/// @DnDArgument : "var" "miss_goliath"
+miss_goliath = 0;
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

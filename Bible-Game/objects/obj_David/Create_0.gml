@@ -28,8 +28,7 @@ stonenum_to_shoot = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 7DD97BDB
 /// @DnDArgument : "var" "room"
-/// @DnDArgument : "value" "1"
-if(room == 1)
+if(room == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
@@ -58,3 +57,9 @@ else
 /// @DnDHash : 36DA9A41
 /// @DnDArgument : "var" "goliathdefeated"
 global.goliathdefeated = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7B9921D5
+/// @DnDArgument : "var" "david_dead"
+david_dead = 0;

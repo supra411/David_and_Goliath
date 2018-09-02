@@ -148,9 +148,9 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 5747B0C1
 				/// @DnDParent : 3176465F
-				/// @DnDArgument : "value" ""Keeper ipsum lorem one""
+				/// @DnDArgument : "value" ""David: I need to go to the front lines to give my brother ephah and ten \nloaves of bread, can you hold these supplies for me?\nKeeper: Sure, but be to come back safely.""
 				/// @DnDArgument : "var" "dialoguetext"
-				global.dialoguetext = "Keeper ipsum lorem one";
+				global.dialoguetext = "David: I need to go to the front lines to give my brother ephah and ten \nloaves of bread, can you hold these supplies for me?\nKeeper: Sure, but be to come back safely.";
 			
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
@@ -317,9 +317,9 @@ else
 					/// @DnDVersion : 1
 					/// @DnDHash : 596F705F
 					/// @DnDParent : 5F619861
-					/// @DnDArgument : "value" ""scared ipsum lorem two""
+					/// @DnDArgument : "value" ""Israelite 1: Whoever kills Goliath gets to marry the king’s daughter  \nand have no taxes in Israel.\nIsraelite 2: This is what you get if you kill him.\nDavid: What will happen to the man who kills this Philistine and removes \nthis unworthy man from Israel? Who is this man who is unclean that he \nshould defy the armies who fights for God?""
 					/// @DnDArgument : "var" "dialoguetext"
-					global.dialoguetext = "scared ipsum lorem two";
+					global.dialoguetext = "Israelite 1: Whoever kills Goliath gets to marry the king’s daughter  \nand have no taxes in Israel.\nIsraelite 2: This is what you get if you kill him.\nDavid: What will happen to the man who kills this Philistine and removes \nthis unworthy man from Israel? Who is this man who is unclean that he \nshould defy the armies who fights for God?";
 				
 					/// @DnDAction : YoYo Games.Instances.Create_Instance
 					/// @DnDVersion : 1
@@ -396,9 +396,9 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 69A1EAA5
 				/// @DnDParent : 57DBD7E7
-				/// @DnDArgument : "value" ""goliathtaunt ipsum lorem two""
+				/// @DnDArgument : "value" ""Goliath: Come out, I am tired of waiting. If you kill me, we will serve you, \nbut if I kill the one that is chose to fight, you will serve us.""
 				/// @DnDArgument : "var" "dialoguetext"
-				global.dialoguetext = "goliathtaunt ipsum lorem two";
+				global.dialoguetext = "Goliath: Come out, I am tired of waiting. If you kill me, we will serve you, \nbut if I kill the one that is chose to fight, you will serve us.";
 			
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
@@ -512,9 +512,9 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 50302953
 				/// @DnDParent : 4F7DF3B8
-				/// @DnDArgument : "value" ""eliab ipsum lorem one""
+				/// @DnDArgument : "value" ""Eliab: Why did you come to the battleline, and who did you leave the \nsheeps to? I know how evil you are. You came just to watch the battle, right? ""
 				/// @DnDArgument : "var" "dialoguetext"
-				global.dialoguetext = "eliab ipsum lorem one";
+				global.dialoguetext = "Eliab: Why did you come to the battleline, and who did you leave the \nsheeps to? I know how evil you are. You came just to watch the battle, right? ";
 			
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
@@ -598,9 +598,9 @@ else
 					/// @DnDVersion : 1
 					/// @DnDHash : 359AD9E7
 					/// @DnDParent : 3945CEA8
-					/// @DnDArgument : "value" ""bodyguard ipsum lorem two""
+					/// @DnDArgument : "value" ""Bodyguard: Go talk to Saul,he's looking for you.""
 					/// @DnDArgument : "var" "dialoguetext"
-					global.dialoguetext = "bodyguard ipsum lorem two";
+					global.dialoguetext = "Bodyguard: Go talk to Saul,he's looking for you.";
 				
 					/// @DnDAction : YoYo Games.Instances.Create_Instance
 					/// @DnDVersion : 1
@@ -643,9 +643,9 @@ else
 					/// @DnDVersion : 1
 					/// @DnDHash : 47E5716E
 					/// @DnDParent : 7C1897B9
-					/// @DnDArgument : "value" ""bodyguard ipsum lorem one""
+					/// @DnDArgument : "value" ""Bodyguard: Aren't you suppose to talk to Eliab?""
 					/// @DnDArgument : "var" "dialoguetext"
-					global.dialoguetext = "bodyguard ipsum lorem one";
+					global.dialoguetext = "Bodyguard: Aren't you suppose to talk to Eliab?";
 				
 					/// @DnDAction : YoYo Games.Instances.Create_Instance
 					/// @DnDVersion : 1
@@ -760,9 +760,9 @@ else
 				/// @DnDVersion : 1
 				/// @DnDHash : 53547113
 				/// @DnDParent : 3F512E14
-				/// @DnDArgument : "value" ""saul ipsum lorem one""
+				/// @DnDArgument : "value" ""King Saul: You are too young to go fight Goliath, and he has been a warrior \nsince he was young. \nDavid: I have killed a lion and a bear, what is the difference from this \nunclean Philistine?\nKing Saul: Go, may the lord protect you.""
 				/// @DnDArgument : "var" "dialoguetext"
-				global.dialoguetext = "saul ipsum lorem one";
+				global.dialoguetext = "King Saul: You are too young to go fight Goliath, and he has been a warrior \nsince he was young. \nDavid: I have killed a lion and a bear, what is the difference from this \nunclean Philistine?\nKing Saul: Go, may the lord protect you.";
 			
 				/// @DnDAction : YoYo Games.Instances.Create_Instance
 				/// @DnDVersion : 1
