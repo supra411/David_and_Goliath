@@ -34,9 +34,8 @@ if(room == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 327F71CF
 	/// @DnDParent : 7DD97BDB
-	/// @DnDArgument : "value" "5"
 	/// @DnDArgument : "var" "stonenum"
-	global.stonenum = 5;
+	global.stonenum = 0;
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -48,8 +47,9 @@ else
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DD68C68
 	/// @DnDParent : 5B809208
+	/// @DnDArgument : "value" "5"
 	/// @DnDArgument : "var" "stonenum"
-	global.stonenum = 0;
+	global.stonenum = 5;
 }
 
 /// @DnDAction : YoYo Games.Common.Set_Global
